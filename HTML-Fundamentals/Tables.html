@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Wesley Chía">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Tables</title>
+
+    <style>
+
+        h1 {
+          color: brown;
+          text-align: center;
+        }
+      .table-contries  {
+         margin-left: auto;
+         margin-right:auto;
+      }
+
+      th , td{
+          border-width: 1px;
+          border-style: dashed;
+          padding: 5px;
+          margin:5px;
+      }
+
+
+
+      .table-teams, td, th{
+        margin: auto;
+      }
+    </style>
+</head>
+<body>
+    
+    <h1>Tables</h1>
+    <br>
+    <br>
+    <table class="table-contries">
+        <caption > Tabla 1 - Paises </caption>
+        <thead>
+            <tr>
+                <th>Pais</th>
+                <th>Capital</th>
+                <th>Modena</th>
+                <th>Población</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>México</td>
+                <td>CDMX</td>
+                <td>Peso mexicano</td>
+                <td>100,000,000</td>
+            </tr>
+
+            <tr>
+               <td>España</td>
+                <td>Madrid</td>
+                <td>Euro</td>
+                <td>250,000,000</td>
+            </tr>
+            <tr>
+                <td>Argentina</td>
+                 <td>Buenos Aires</td>
+                 <td>Peso Argentino</td>
+                 <td>250,000,000</td>
+             </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pais</td>
+                <td>Moneda</td>
+                <td>Capital</td>
+                <td>Población</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <br>
+
+    <table class="table-teams">
+        <caption>Tabla 2 - Fútbol 1 divición</caption>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>2003/2004</td>
+                <td>2004/2005</td>
+                <td>2005/2006</td>
+            </tr>
+            <tr>
+                <th>Campeón</th>
+                <td>America</td>
+                <td>Chivas</td>
+                <td>Necaxa</td>
+            </tr>
+            <tr>
+                <th>Subcampeón</th>
+                <td>Chivas</td>
+                <td>Cruz Azul</td>
+                <td>Morelia</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
